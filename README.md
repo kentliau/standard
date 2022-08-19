@@ -2,13 +2,7 @@
 
 By separating the frontend and backend "cleanly", we can achieve a more "platform ignorance", the frontend is just a client it only need to know the endpoints' input and output. The Backend is just headless data in and out and it is design just according the API Specs without thinking about visual presentation.
 
-
-```
-Full Stack Software Developer Test
-
-Ful stack project
-
-You are required to use PHP or other equivalent backend language to create an API then use Vue.js or React to create a single page application to consume the API
+# Full Stack
 
 ## API
 1. Login endpoint, POST /login, once login the user, the endpoint should return a token that can be used to authenticate the next (b) endpoint
@@ -18,6 +12,3 @@ You are required to use PHP or other equivalent backend language to create an AP
 ## Single Page Application
 1. The first view of the application should show the login page to input username and password.
 2. Upon successful login, a token should be received, and it should use to get the data from the endpoint /data above in a different view. The view should show the time received from the response which is the time
-
-Share us the project codes preferably via cloud git such as Gitlab, Github, etc. Otherwise, a zip file of the project codes can be shared with us
-```
