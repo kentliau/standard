@@ -1,4 +1,4 @@
-import axios from './../axios';
+import axios from '@/axios';
 
 export const useCheckLogin = async () => {
   const token = window.localStorage.getItem('token');

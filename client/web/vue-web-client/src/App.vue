@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted } from 'vue';
 import { useRouter, RouterLink, RouterView } from "vue-router";
-import { useCheckLogin } from './composable/useCheckLogin';
+import { useCheckLogin } from '@/composable/useCheckLogin';
 import Swal from 'sweetalert2';
 
 const router = useRouter();

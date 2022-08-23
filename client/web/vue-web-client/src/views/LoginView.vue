@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import axios from './../axios';
+import axios from '@/axios';
 import { useRouter } from "vue-router";
-import { useCheckLogin } from './../composable/useCheckLogin';
+import { useCheckLogin } from '@/composable/useCheckLogin';
 import Swal from 'sweetalert2';
 
 const router = useRouter();
