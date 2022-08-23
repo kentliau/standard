@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
-import axios from './../axios';
+import userApi from '@/api/user.ts';
+
 import Swal from 'sweetalert2';
 import { useRouter } from "vue-router";
 
@@ -9,7 +10,7 @@ const router = useRouter();
 const timestamp = ref('');
 
 onMounted(async () => {
-  const { data } = await axios.get('data');
+  const data = await userApi.getData();
 
   timestamp.value = data.timestamp;
 });
